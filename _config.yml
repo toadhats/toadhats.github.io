@@ -1,8 +1,13 @@
 name: Jonathan Warner
-version: 0.1
 markdown: kramdown
 timezone: Australia/Melbourne
 future: false
 lsi: true
 gems:
   - jekyll-sitemap
+
+# Custom variables
+version: 0.1
+github:
+    repo: https://github.com/toadhats/toadhats.github.io
+    page: https://github.com/toadhats
