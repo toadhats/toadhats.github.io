@@ -6,6 +6,10 @@ lsi: true
 gems:
   - jekyll-sitemap
 
+# Page info etc
+title: Jonathan Warner
+tagline: 'Generic developer profile?'
+
 # Custom variables
 version: 0.1
 github:
