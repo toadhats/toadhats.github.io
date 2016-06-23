@@ -1,2 +1,5 @@
 name: Jonathan Warner
 markdown: kramdown
+timezone: Australia/Melbourne
+gems:
+  - jekyll-sitemap
