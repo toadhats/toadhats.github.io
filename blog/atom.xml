@@ -8,11 +8,11 @@ layout: feed
 	<link href="http://toadhats.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://toadhats.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://toadhats.github.io/blog</id>
-	<author>
-		<name>Jonathan Warner</name>
-		<email>limule@icloud.com</email>
-	</author>
+	<id>{{ site.url }}</id>
+	author>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
+ </author>
 
 	{% for post in site.posts %}
 		<entry>

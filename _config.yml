@@ -5,13 +5,26 @@ future: false
 lsi: true
 gems:
   - jekyll-sitemap
+  - jekyll-feed
+
+# Permalinks
+permalink: pretty
 
 # Page info etc
 title: Jonathan Warner
 tagline: 'Generic developer profile?'
+#description: A place to showcase what I'm working on
+url: toadhats.github.io
+baseurl: /
+
+author:
+  name: Jonathan Warner
+  url: https://github.com/toadhats
+  email: limule@icloud.com
+
 
 # Custom variables
 version: 0.1
 github:
-    repo: https://github.com/toadhats/toadhats.github.io
-    page: https://github.com/toadhats
+  repo: https://github.com/toadhats/toadhats.github.io
+  page: https://github.com/toadhats
